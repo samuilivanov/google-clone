@@ -1,0 +1,40 @@
+html, body{
+    height:100%; /* important to vertically align the container */
+    margin:0;
+    padding:0;
+}
+
+.vertical-center {
+  min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 90vh; /* These two lines are counted as one*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.vertical-center .searchContainer {
+  padding: 10px 24px; /* Some padding */
+}
+
+.vertical-center .searchContainer .searchButton {
+  color: #757575;
+  background-color: #f5f5f5;
+  border: none;
+  height: 36px;
+  width: 125px;
+  border-radius: 1px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.vertical-center .logoContainer {
+  height: 80px;
+  padding: 10px;
+}
+
+.vertical-center .logoContainer img {
+  height: 100%;
+}
