@@ -1,39 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+<html>
+<head>
+	<title>Welcome to Doodle</title>
 
-    <div class="vertical-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-            <div class="logoContainer">
-              <img src="assets/img/doodleLogo.png" alt="">
-            </div>
+</head>
+<body>
 
-            <div class="searchContainer">
-              <div class="form-group">
-                <form action="search.php" method="GET">
+	<div class="wrapper indexPage">
 
-                  <input type="text" class="form-control" name="term">
-                  <input type="submit" class="searchButton" value="Search">
 
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+		<div class="mainSection">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+			<div class="logoContainer">
+				<img src="assets/images/doodleLogo.png">
+			</div>
+
+
+			<div class="searchContainer">
+
+				<form action="search.php" method="GET">
+
+					<input class="searchBox" type="text" name="term">
+					<input class="searchButton" type="submit" value="Search">
+
+
+				</form>
+
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+</body>
 </html>
